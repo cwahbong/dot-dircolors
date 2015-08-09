@@ -2,7 +2,7 @@ update:
 	git pull --rebase
 
 install:
-	ln --backup=numbered -s -r dir_colors $(HOME)/.dir_colors
+	ln --backup=numbered -n -s -r dir_colors $(HOME)/.dir_colors
 
 Makefile: ; # Do not remake makefile.
 
